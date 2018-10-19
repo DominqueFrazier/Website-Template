@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+  <!-- FontAwesome  -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- slippry slider -->
+  <link href="css/slippry.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/second-nav.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Bat Cave </title>
+</head>
+<body>
+  
+    <!-- end top-nav-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="logo" src="images/logo.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- end logo header search bar -->
+    <div class="container-fluid">
+      <div class="row second-nav-bar">
+        <div class="col-sm-12">
+        <section class="color-7 d-flex justify-content-center">
+  				<nav class="cl-effect-21">
+  					<a href="#">Community</a>
+  					<a href="#">Management</a>
+  					<a href="#">Intelligence</a>
+  					<a href="#">Network</a>
+  					<a href="#">Reporting &amp; Monitoring</a>
+  					<a href="#">Exercise &amp; Training</a>
+  					<a href="#">Tools</a>
+  				</nav>
+  			</section>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <section class="row ">
+        <div class="col-md-12 carousel">
+          <ul id="demo1">
+            <li><a href="#slide1"><img src="images/c1.jpg" alt=" Alfred is better than batman"></a></li>
+            <li><a href="#slide2"><img src="images/c2.jpg"  alt="Short people to the back"></a></li>
+            <li><a href="#slide3"><img src="images/c3.jpg" alt="5'6 an above."></a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- end middle container-fluid -->
+    <div class="container">
+      <section class="row services service-icons text-center wow fadeInUp">
+        <div class="col-md-3 service-link">
+          <a href="#">
+          <img src="images/report-incident.svg" alt="">
+          <p class="service-title">5'6 an above</p>
+        </a>
+        </div>
+        <div class="col-md-3 service-link">
+          <a href="#">
+        <img src="images/submit-rfi.svg" alt="">
+        <p class="service-title">Alfred rules</p>
+      </a>
+        </div>
+        <div class="col-md-3 service-link">
+          <a href="#">
+        <img src="images/request.svg" alt="">
+        <p class="service-title">Tall or tap</p>
+      </a>
+        </div>
+        <div class="col-md-3 service-link">
+          <a href="#">
+        <img src="images/subscribe.svg" alt="">
+        <p class="service-title">subscribe for more</p>
+      </a>
+        </div>
+      </section>
+    </div>
+    <footer class="container-fluid scc-footer">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg navbar-light float-center" style="padding-left:300px">
+			<div class="footer-text">
+              <ul class="navbar-nav top-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">EVENTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT US</a>
+                </li>
+              </ul>
+			</div>
+          </nav>
+		 </div>
+        </div>
+    </footer>
+  </div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="js/slippry.min.js"></script>
+  <script>
+    $(function() {
+      var demo1 = $("#demo1").slippry({
+        transition: 'horizontal',
+        // useCSS: true,
+        speed: 1000,
+        pause: 3000,
+        auto: true,
+        // preload: 'visible',
+        autoHover: true
+      });
+
+      $('.stop').click(function() {
+        demo1.stopAuto();
+      });
+
+      $('.start').click(function() {
+        demo1.startAuto();
+      });
+
+      $('.prev').click(function() {
+        demo1.goToPrevSlide();
+        return false;
+      });
+      $('.next').click(function() {
+        demo1.goToNextSlide();
+        return false;
+      });
+      $('.reset').click(function() {
+        demo1.destroySlider();
+        return false;
+      });
+      $('.reload').click(function() {
+        demo1.reloadSlider();
+        return false;
+      });
+      $('.init').click(function() {
+        demo1 = $("#demo1").slippry();
+        return false;
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.top-nav li a{
+  font-size: .75rem !important;
+  color: darkgray;
+}
+
+.top-nav li {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.top-search {
+  padding-right: 4.6rem;
+  padding-top: 2rem;
+}
+
+.logo {
+  height: 6rem;
+  padding-left: 6rem;
+}
+
+.second-nav-bar {
+  margin-top: 2rem;
+  /*padding-bottom: .5rem;*/
+  background-color: #333333;
+}
+
+.second-nav {
+  list-style-type: none;
+  margin: 0;
+  padding-top: .75rem;
+  overflow: hidden;
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.second-nav li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.second-nav li a:hover {
+  background-color: gray;
+}
+
+.second-nav-link {
+  display: block;
+}
+.second-nav-link a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+.carousel {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.services {
+  min-height: 14rem;
+}
+
+.service-icons img{
+  height: 3rem;
+  margin-top: 3rem;
+}
+
+.service-title {
+  text-transform: uppercase;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+
+.service-link /* unvisited link */
+a:link {
+    color: #212529;
+}
+
+/* visited link */
+.service-link  a:visited {
+    color: #212529;
+}
+
+/* mouse over link */
+.service-link  a:hover {
+    color: #212529;
+}
+
+/* selected link */
+.service-link  a:active {
+    color: #212529;
+}
+
+.scc-footer {
+  background-color: #333333;
+  color: white;
+  bottom: 0;
+  min-height: 12rem;
+  padding-left: 6rem;
+  padding-top: 3rem;
+}
+
+.footer-right {
+  padding-right: 6rem;
+}
+
+.contact-link a:link {
+    color: white;
+}
+
+/* visited link */
+.contact-link a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.contact-link a:hover {
+    color: white;
+}
+
+/* selected link */
+.contact-link a:active {
+    color: white;
+}
+.footer-text{
+	font: strong;
+	color: white;
+}
